@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Responsive Multipage Blog Website</title>
+     <link rel="stylesheet" href="./style.css">
+     <!-- ICONSCOUT CDN -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+     <!-- Google Font (MONTSRRAT) -->
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+     <nav>
+          <div class="container nav_container">
+               <a href="index.html" class="nav_logo"><img src="./images/my_logo.png"></a>
+               <ul class="nav-items">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <!-- <li><a href="contact.html">Signin</a></li> -->
+                    <li class="nav_profile">
+                         <div class="avatar">
+                              <img src="./images/cover_image.jpg">
+                         </div>
+                         <ul>
+                              <li><a href="manage-posts.html">Dashboard</a></li>
+                              <li><a href="logout.html">Logout</a></li>
+                         </ul>
+                    </li>
+               </ul>
+               <button id="open_nav-btn"><i class="uil uil-bars"></i></button>
+               <button id="close_nav-btn"><i class="uil uil-times"></i></button>
+          </div>
+     </nav>
+     <!-- End of nav -->
+
+
+     <section class="featured">
+          <div class="container featured_container">
+               <div class="post_thumbnail">
+                    <img src="./images/esala_perahera.jpg">
+               </div>
+               <div class="post-info">
+                    <a href="category-posts.html" class="catogary_button">Festivel</a>
+                    <h2 class="post_title"><a href="post.html">Esala Perahera</a></h2>
+                    <p class="post_body">The Sacred Tooth Relic, which is housed at the Temple of the Sacred Tooth Relic in the city of Kandy,
+                          is being considered and worshipped as the living Lord Buddha. For this very reason, there are daily, weekly and annual 
+                          poojas and rituals. Dalada Perahera famously known as the Kandy Esala Perahera held in the month of Esala (July) annually is among them.
+                          It is considered as the epitome of country’s Buddhist celebrations and is blessed with divinity.</p>
+                    <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/cover_image.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: Dhanushka Sandaruwan</h5>
+                              <small>June 10, 2022 - 07:23</small>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- End of Featured -->
+
+     <!-- Hot topic Slider start -->
+     <div class="post-slider">
+          <h2 class="slider-title">Populer Post</h2>
+          <i class="fa fa-chevron-left prev"></i>
+          <i class="fa fa-chevron-right next"></i>
+     
+     
+          <div class="postWrapper">
+               <div class="post clearfix">
+                    <img src="images/esala_perahera.jpg" alt="slider1" class="sliderImage">
+                    <div class="post-info">
+                         <h3><a href="single.html">AI Today!</a></h3>
+                         <div class="post_author">
+                              <div class="post_author-avatar">
+                                   <img src="./images/cover_image.jpg">
+                              </div>
+                              <div class="post_author-info">
+                                   <h5>By: Dhanushka Sandaruwan</h5>
+                                   <small>June 13, 2022 - 10:34</small>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="post clearfix">
+                    <img src="images/new-eyar.jpg" alt="slider2" class="sliderImage">
+                    <div class="post-info">
+                         <h3><a href="single.html">Sinhala Tamil New Year</a></h3>
+                         <div class="post_author">
+                              <div class="post_author-avatar">
+                                   <img src="./images/cover_image.jpg">
+                              </div>
+                              <div class="post_author-info">
+                                   <h5>By: Dhanushka Sandaruwan</h5>
+                                   <small>June 13, 2022 - 10:34</small>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="post clearfix">
+                    <img src="images/vesak.jpg" alt="slider3" class="sliderImage">
+                    <div class="post-info">
+                         <h3><a href="single.html">Wesak Day</a></h3>
+                         <div class="post_author">
+                              <div class="post_author-avatar">
+                                   <img src="./images/cover_image.jpg">
+                              </div>
+                              <div class="post_author-info">
+                                   <h5>By: Dhanushka Sandaruwan</h5>
+                                   <small>June 13, 2022 - 10:34</small>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="post clearfix">
+                    <img src="images/poson.jpg" alt="slider4" class="sliderImage">
+                    <div class="post-info">
+                         <h3><a href="single.html">Poson Poya Day</a></h3>
+                         <div class="post_author">
+                              <div class="post_author-avatar">
+                                   <img src="./images/cover_image.jpg">
+                              </div>
+                              <div class="post_author-info">
+                                   <h5>By: Dhanushka Sandaruwan</h5>
+                                   <small>June 13, 2022 - 10:34</small>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="post clearfix">
+                    <img src="images/slider5.jpg" alt="slider5" class="sliderImage">
+                    <div class="post-info">
+                         <h3><a href="single.html">Inflation -2022</a></h3>
+                         <div class="post_author">
+                              <div class="post_author-avatar">
+                                   <img src="./images/avatar3.jpg">
+                              </div>
+                              <div class="post_author-info">
+                                   <h5>By: John Mills</h5>
+                                   <small>June 13, 2022 - 10:34</small>
+                              </div>
+                         </div>
+     
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- Hot topic Slider End -->
+
+     <section class="posts">
+          <div class="container posts_container">
+               <article class="post">
+                    <div class="post_thumbnail">
+                         <img src="./images/new-eyar.jpg">
+                    </div>
+                    <div class="post_info">
+                         <a href="category-posts.html" class="catogary_button">Festivel</a>
+                         <h3 class="post_title">
+                              <a href="post2.html">Sinhala Tamil New Year</a>
+                         </h3>
+                         <p class="post_body">Usually around mid-April every year the entire country is enveloped in a festive atmosphere
+                               to mark the Lunar New Year. Amongst all festivals in Sri Lanka, the Sinhala & Tamil New Year 
+                              is especially celebrated with great pomp and show to mark the end of the harvest season and spring.</p>
+                              <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/avatar3.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: John Mills</h5>
+                              <small>June 13, 2022 - 10:34</small>
+                         </div>
+                         </div>
+                    </div>
+               </article>
+
+               <article class="post">
+                    <div class="post_thumbnail">
+                         <img src="./images/vesak.jpg">
+                    </div>
+                    <div class="post_info">
+                         <a href="category-posts.html" class="catogary_button">festivals</a>
+                         <h3 class="post_title">
+                              <a href="post3.html">Wesak Poya Day</a>
+                         </h3>
+                         <p class="post_body">Commemorating the three important milestones in Buddha's life- his birth, enlightenment,
+                               and nirvana – Vesak Poya is one of the most prominent Buddhist festivals in Sri Lanka.</p>
+                              <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/cover_image.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: Dhanushka Sandaruwan</h5>
+                              <small>June 13, 2022 - 10:34</small>
+                         </div>
+                         </div>
+                    </div>
+               </article>
+
+               <article class="post">
+                    <div class="post_thumbnail">
+                         <img src="./images/poson.jpg">
+                    </div>
+                    <div class="post_info">
+                         <a href="" class="catogary_button">Festival</a>
+                         <h3 class="post_title">
+                              <a href="post4.html">Poson Poya Day</a>
+                         </h3>
+                         <p class="post_body">Also known as Poson Paya, this is the second most important one 
+                              amongst festivals celebrated in Sri Lanka by the Buddhists.
+                              Since it commemorates the advent of Buddhism in the island in the 3rd century,
+                               Poson Festival holds great historical significance too.  </p>
+                              <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/cover_image.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: John Mills</h5>
+                              <small>June 13, 2022 - 10:34</small>
+                         </div>
+                         </div>
+                    </div>
+               </article>
+
+               <article class="post">
+                    <div class="post_thumbnail">
+                         <img src="./images/blog5.jpg">
+                    </div>
+                    <div class="post_info">
+                         <a href="" class="catogary_button">Wild Life</a>
+                         <h3 class="post_title">
+                              <a href="post.html">Lorem ipsum dolor sit amet consecterut adfjdkfjkfjkdfjdk</a>
+                         </h3>
+                         <p class="post_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                              numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                              optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                              obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                              nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                              tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                              quia!</p>
+                         <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/avatar6.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: John Mills</h5>
+                              <small>June 13, 2022 - 10:34</small>
+                         </div>
+                         </div>
+                    </div>
+               </article>
+
+               <article class="post">
+                    <div class="post_thumbnail">
+                         <img src="./images/blog6.jpg">
+                    </div>
+                    <div class="post_info">
+                         <a href="" class="catogary_button">Wild Life</a>
+                         <h3 class="post_title">
+                              <a href="post.html">Lorem ipsum dolor sit amet consecterut adfjdkfjkfjkdfjdk</a>
+                         </h3>
+                         <p class="post_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                              numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                              optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                              obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                              nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                              tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                              quia!</p>
+                              <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/avatar7.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: John Mills</h5>
+                              <small>June 13, 2022 - 10:34</small>
+                         </div>
+                         </div>
+                    </div>
+               </article>
+
+               <article class="post">
+                    <div class="post_thumbnail">
+                         <img src="./images/blog7.jpg">
+                    </div>
+                    <div class="post_info">
+                         <a href="" class="catogary_button">Wild Life</a>
+                         <h3 class="post_title">
+                              <a href="post.html">Lorem ipsum dolor sit amet consecterut adfjdkfjkfjkdfjdk</a>
+                         </h3>
+                         <p class="post_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                              numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                              optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                              obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                              nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                              tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                              quia!</p>
+                              <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/avatar8.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: John Mills</h5>
+                              <small>June 13, 2022 - 10:34</small>
+                         </div>
+                         </div>
+                    </div>
+               </article>
+
+               <article class="post">
+                    <div class="post_thumbnail">
+                         <img src="./images/blog8.jpg">
+                    </div>
+                    <div class="post_info">
+                         <a href="" class="catogary_button">Wild Life</a>
+                         <h3 class="post_title">
+                              <a href="post.html">Lorem ipsum dolor sit amet consecterut adfjdkfjkfjkdfjdk</a>
+                         </h3>
+                         <p class="post_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                              numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                              optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                              obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                              nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                              tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                              quia!</p>
+                              <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/avatar9.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: John Mills</h5>
+                              <small>June 13, 2022 - 10:34</small>
+                         </div>
+                         </div>
+                    </div>
+               </article>
+
+               <article class="post">
+                    <div class="post_thumbnail">
+                         <img src="./images/blog9.jpg">
+                    </div>
+                    <div class="post_info">
+                         <a href="" class="catogary_button">Wild Life</a>
+                         <h3 class="post_title">
+                              <a href="post.html">Lorem ipsum dolor sit amet consecterut adfjdkfjkfjkdfjdk</a>
+                         </h3>
+                         <p class="post_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                              numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                              optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                              obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                              nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                              tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                              quia!</p>
+                              <div class="post_author">
+                         <div class="post_author-avatar">
+                              <img src="./images/avatar3.jpg">
+                         </div>
+                         <div class="post_author-info">
+                              <h5>By: John Mills</h5>
+                              <small>June 13, 2022 - 10:34</small>
+                         </div>
+                         </div>
+                    </div>
+               </article>
+          </div>
+     </section>
+
+     <!-- End of Post -->
+
+     <section class="catogary_buttons">
+          <div class="container catogary_buttons-container">
+               <a href="" class="catogary_button">Art</a>
+               <a href="" class="catogary_button">Wild Life</a>
+               <a href="" class="catogary_button">Travel</a>
+               <a href="" class="catogary_button">Software Programing</a>
+               <a href="" class="catogary_button">Web Development</a>
+               <a href="" class="catogary_button">Graphic Design</a>
+               
+
+          </div>
+          </section>
+          <!-- End of Catogary Buttons -->
+
+<footer>
+<div class="footer_socials">
+     <a href="https://www.youtube.com/" target="_blank"><i class="uil uil-youtube"></i></a>
+     <a href="https://www.facebook.com/" target="_blank"><i class="uil uil-facebook-f"></i></a>
+     <a href="https://www.instergram.com/" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+     <a href="https://www.linkedin.com/" target="_blank"><i class="uil uil-linkedin"></i></i></a>
+     <a href="https://www.dhanushka_sandaruwan.github.io./" target="_blank"><i class="uil uil-globe"></i></a>
+</div>
+<div class="container footer_container">
+     <article>
+          <h4>Categories</h4>
+          <ul>
+               <li><a href="">Art</a></li>
+               <li><a href="">Wild Life</a></li>
+               <li><a href="">Travel</a></li>
+               <li><a href="">Software Programing</a></li>
+               <li><a href="">Web Development</a></li>
+               <li><a href="">Graphic Design</a></li>
+          </ul>
+     </article>
+
+     <article>
+          <h4>Support</h4>
+          <ul>
+               <li><a href="">Online Support</a></li>
+               <li><a href="">Call Numbers</a></li>
+               <li><a href="">Emails</a></li>
+               <li><a href="">Social Support</a></li>
+               <li><a href="">Location</a></li>
+          </ul>
+     </article>
+
+     <article>
+          <h4>Blog</h4>
+          <ul>
+               <li><a href="">Safety</a></li>
+               <li><a href="">Repair</a></li>
+               <li><a href="">Recent</a></li>
+               <li><a href="">Populer</a></li>
+               <li><a href="">Categories</a></li>
+          </ul>
+     </article>
+
+     <article>
+          <h4>Permalinks</h4>
+     <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact</a></li>
+     </ul>
+     </article>
+</div>
+<div class="footer_copyright">
+     <small>Copyright &copy;2022 DSD Technology</small>
+</div>
+</footer>
+     
+     <script src="./main.js"></script>
+     <!-- JQuery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+          integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+     <!-- Slick Carousel -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+     <script src="script.js"></script>
+
+</body>
+
+</html>
